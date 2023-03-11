@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- FONTS-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Hiking Insight</title>
+  </head>
+  <body class="font-sans">
+    <header>
+      <div
+        class="w-screen h-screen bg-cover bg-no-repeat bg-fixed bg-center"
+        style="background-image: url(/Images/hiking-home.jpg)"
+      >
+        <div class="justify-center flex">
+          <img class="h-auto bg-transparent" src="Images/logo.png" alt="logo" />
+        </div>
+        <h2 class="justify-center flex lg:text-[25px] md:text-[10px]">
+          Hiking Insight
+        </h2>
+        <br />
+        <div>
+          <nav class="flex items-center w-[92%] mx-auto">
+            <div
+              class="nav-res md:static absolute md:min-h-fit min-h-[60] left-0 top-[-30%] md:w-auto w-full flex items-center px-5"
+            >
+              <ul
+                class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8"
+              >
+                <li class="">
+                  <a class="hover:text-gray-500" href="index.html">Home</a>
+                </li>
+                <li class="">
+                  <a class="hover:text-gray-500" href="#">About</a>
+                </li>
+                <li class="">
+                  <a class="hover:text-gray-500" href="#">Package</a>
+                </li>
+                <li class="">
+                  <a class="hover:text-gray-500" href="#">Gallery</a>
+                </li>
+                <li class="">
+                  <a class="hover:text-gray-500" href="#">Contacts</a>
+                </li>
+              </ul>
+            </div>
+            <div class="flex items-center gap-6">
+              <ion-icon
+                onclick="onToggleMenu(this)"
+                name="menu-outline"
+                class="text-3xl cursor-pointer md:hidden"
+              ></ion-icon>
+            </div>
+          </nav>
+        </div>
+
+        <div class="ml-[8%] md:place-content-center">
+          <img
+            class="mt-[3%] ml-[7%] w-[20%]"
+            src="Images/right-home-hiking.png"
+            alt="mountain-with-sun-rays"
+          />
+
+          <p
+            class="ml-[1%] font-bold text-white lg:text-8xl md:text-4xl font-[Opensans]"
+          >
+            HIKE MORE
+          </p>
+
+          <p
+            class="ml-[2%] font-[Allura] text-white lg:text-7xl md:text-4xl relative"
+          >
+            ---- Worry Less ----
+          </p>
+        </div>
+
+        <div class="flex justify-between ">
+          <p
+            class="lg:text-[18px] md:text-[9px] ml-[12%] mt-[1%] lg:w-[30%] md:w-auto text-center text-white font-[Opensans]"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis placeat molestiae voluptas, quia reiciendis, et eius
+            maximus, quod voluptates quos voluptatibus. Quisquam, quod.
+            Quisquam, quod. Quisquam, quod. Quisquam, quod.
+          </p>
+          <div
+            class="lg:text-[18px] md:text-[9px] mr-[8%] text-white lg:w-[28%] md:w-auto font-[Opensans] text-center bg-transparent bg-amber-500 bg-opacity-30 p-[2%] hover:bg-opacity-60 transition ease-out duration-500"
+          >
+            <p class="py-2">*****</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis placeat molestiae voluptas, quia reiciendis, et eius
+              maximus, quod voluptates quos voluptatibus. Quisquam, quod.
+              Quisquam, quod. Quisquam, quod. Quisquam, quod.
+            </p>
+
+            <p class="py-2">-QUOTES-</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+
+    </section>
+<div class=" bg-[#FEAE3C] grid p-[5%]">
+  
+  <h1 class="font-[Raleway] text-8xl m-[2%]">1000+ Route. 1Million Hikers.</h1>
+  <h1 class="font-[Raleway] text-8xl m-[2.5%]">All you need to know</h1>
+<div class="bg-black lg:w-[28%] md:w-auto p-[2%]">
+  <p class="lg:text-[18px] md:text-[9px] text-white text-[Opensans]  ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam vero quis ipsam molestias placeat delectus illum, atque beatae repellendus ea aut cupiditate eveniet accusamus ut earum a tenetur necessitatibus explicabo.</p>
+
+</div>
+</div>
+    <script>
+      const navLinks = document.querySelector(".nav-res");
+      function onToggleMenu(e) {
+        e.name = e.name === "menu-outline" ? "close-outline" : "menu-outline";
+        navLinks.classList.toggle("top-[16%]");
+      }
+    </script>
+  </body>
+</html>
