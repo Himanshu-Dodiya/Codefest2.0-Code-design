@@ -46,10 +46,10 @@
         <div>
           <nav class="flex items-center w-[92%] mx-auto">
             <div
-              class="nav-res md:static absolute md:min-h-fit min-h-[60] left-0 hidden xm: md:w-auto w-full md:flex items-center px-5"
+              class="nav-res md:static absolute md:min-h-fit min-h-[60] left-0 h-[100%] hidden xm: md:w-auto w-full md:flex items-center px-5"
             >
               <ul
-                class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8"
+                class="flex md:flex-row flex-col ml-auto mr-[0px] mb-0 mt-auto md:items-center md:gap-[4vw] gap-8"
               >
                 <li class="">
                   <a class="hover:text-gray-500" href="index.html">Home</a>
@@ -78,7 +78,7 @@
           </nav>
         </div>
 
-        <div class="lg:ml-[8%] md:ml-[15%] text-center justify-center">
+        <div class=" text-center justify-center">
           <center>
             <img
               class="mt-[3%] ml-[7%] w-[20%]"
@@ -160,24 +160,24 @@
           class="flex justify-center flex-col md:flex-row md:justify-between font-[Raleway] lg:text-[50px] md:text-[20px] ml-6 mr-6 md: gap-6"
         >
         <div>
-          <h1>Beginner</h1>
-          <p>
+          <h1 class="font-bold">Beginner</h1>
+          <p class="text-[2rem] font-[Opensans] ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, in
             quibusdam! Quo minus assumenda sed possimus? Quam pariatur doloribus
             consectetur.
           </p>
         </div>
         <div>
-          <h1>Experienced</h1>
-          <p>
+          <h1 class="font-bold">Experienced</h1>
+          <p class="text-[2rem] font-[Opensans] ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, in
             quibusdam! Quo minus assumenda sed possimus? Quam pariatur doloribus
             consectetur.
           </p>
         </div>
         <div>
-          <h1>Expert</h1>
-          <p>
+          <h1 class="font-bold">Expert</h1>
+          <p class="text-[2rem] font-[Opensans] ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, in
             quibusdam! Quo minus assumenda sed possimus? Quam pariatur doloribus
             consectetur.
@@ -185,14 +185,19 @@
         </div>
         </div>
        <div class="flex justify-between font-[Opensans]">
-       <div class="m-3 w-9 h-5 rounded overflow-hidden  "> 
+       <div class="m-3 w-9 h-5 rounded-full overflow-hidden  "> 
     </div>
+       </div>
+       <div class="block m-5" id="contacts">
+        <p class="font-[Raleway] text-4xl font-bold ">Contact Us</p>
+        <p class="text-3xl m-3 font-[Opensans]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eveniet.</p>
+        <p class="text-3xl m-3 font-[Opensans]">+12 34256 89101</p>
+        <p class="text-3xl m-3 font-[Opensans]">+12 34256 89101</p>
+
        </div>
       </div>
     </section>
-    <section>
-      <p>Contact Us</p>
-    </section>
+    
     <script>
       const navLinks = document.querySelector(".nav-res");
       function onToggleMenu(e) {
