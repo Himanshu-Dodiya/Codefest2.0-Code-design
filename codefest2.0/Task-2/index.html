@@ -14,7 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -51,16 +54,16 @@
                   <a class="hover:text-gray-500" href="index.html">Home</a>
                 </li>
                 <li class="">
-                  <a class="hover:text-gray-500" href="#">About</a>
+                  <a class="hover:text-gray-500" href="#about">About</a>
                 </li>
                 <li class="">
-                  <a class="hover:text-gray-500" href="#">Package</a>
+                  <a class="hover:text-gray-500" href="#package">Package</a>
                 </li>
                 <li class="">
-                  <a class="hover:text-gray-500" href="#">Gallery</a>
+                  <a class="hover:text-gray-500" href="#gallery">Gallery</a>
                 </li>
                 <li class="">
-                  <a class="hover:text-gray-500" href="#">Contacts</a>
+                  <a class="hover:text-gray-500" href="#contacts">Contacts</a>
                 </li>
               </ul>
             </div>
@@ -68,13 +71,13 @@
               <ion-icon
                 onclick="onToggleMenu(this)"
                 name="menu-outline"
-                class="text-3xl cursor-pointer md:hidden"
+                class="text-3xl cursor-pointer absolute right-3 md:hidden"
               ></ion-icon>
             </div>
           </nav>
         </div>
 
-        <div class="ml-[8%] md:place-content-center">
+        <div class="lg:ml-[8%] md:ml-[15%]">
           <img
             class="mt-[3%] ml-[7%] w-[20%]"
             src="Images/right-home-hiking.png"
@@ -82,21 +85,21 @@
           />
 
           <p
-            class="ml-[1%] font-bold text-white lg:text-8xl md:text-4xl font-[Opensans]"
+            class="ml-[1%]  font-bold text-white lg:text-8xl md:text-6xl font-[Opensans]"
           >
             HIKE MORE
           </p>
 
           <p
-            class="ml-[2%] font-[Allura] text-white lg:text-7xl md:text-4xl relative"
+            class="ml-[2%] font-[Allura] text-white lg:text-7xl md:text-6xl relative"
           >
             ---- Worry Less ----
           </p>
         </div>
 
-        <div class="flex justify-between ">
+        <div class="lg:flex justify-between md:block md:gap-x-[%] ">
           <p
-            class="lg:text-[18px] md:text-[9px] ml-[12%] mt-[1%] lg:w-[30%] md:w-auto text-center text-white font-[Opensans]"
+            class="lg:text-[18px] md:text-[9px] ml-[8%] mt-[1%] lg:w-[30%] md:w-auto md:mt- text-center text-white font-[Opensans]"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Perspiciatis placeat molestiae voluptas, quia reiciendis, et eius
@@ -104,7 +107,7 @@
             Quisquam, quod. Quisquam, quod. Quisquam, quod.
           </p>
           <div
-            class="lg:text-[18px] md:text-[9px] mr-[8%] text-white lg:w-[28%] md:w-auto font-[Opensans] text-center bg-transparent bg-amber-500 bg-opacity-30 p-[2%] hover:bg-opacity-60 transition ease-out duration-500"
+            class="lg:text-[18px] md:text-[9px] sm:ml-[8%]   md:mr-[1%] mr-[8%] text-white lg:w-[30%] md:w-auto font-[Opensans] text-center bg-amber-500 bg-opacity-30 p-[2%] hover:bg-opacity-60 transition ease-out duration-500"
           >
             <p class="py-2">*****</p>
             <p>
@@ -119,18 +122,56 @@
         </div>
       </div>
     </header>
-    <section>
-
+    <section id="about">
+      <div
+        class="bg-[#FEAE3C] p-[5%] w-auto h-[50%] bg-cover bg-no-repeat bg-fixed bg-center grid place-items-center"
+      >
+        <h1 class="font-[Raleway] lg:text-8xl md:text-6xl m-[2%]">
+          1000+ Route. 1 Million Hikers.
+        </h1>
+        <h1 class="font-[Raleway] lg:text-8xl md:text-6xl m-[2.5%]">
+          All you need to know
+        </h1>
+        <div
+          class="bg-black lg:w-[28%] lg:text-[18px] md:text-[9px] p-[2%] text-center"
+        >
+          <p class="text-center text-white font-[Opensans]">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam vero
+            quis ipsam molestias placeat delectus illum, atque beatae
+            repellendus ea aut cupiditate eveniet accusamus ut earum a tenetur
+            necessitatibus explicabo.
+          </p>
+        </div>
+      </div>
     </section>
-<div class=" bg-[#FEAE3C] grid p-[5%]">
-  
-  <h1 class="font-[Raleway] text-8xl m-[2%]">1000+ Route. 1Million Hikers.</h1>
-  <h1 class="font-[Raleway] text-8xl m-[2.5%]">All you need to know</h1>
-<div class="bg-black lg:w-[28%] md:w-auto p-[2%]">
-  <p class="lg:text-[18px] md:text-[9px] text-white text-[Opensans]  ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam vero quis ipsam molestias placeat delectus illum, atque beatae repellendus ea aut cupiditate eveniet accusamus ut earum a tenetur necessitatibus explicabo.</p>
-
-</div>
-</div>
+    <section id="package">
+      <div
+        class="w-screen h-screen bg-cover bg-no-repeat bg-fixed"
+        style="background-image: url(/Images/packages.jpg)"
+      >
+        <h1
+          class="flex justify-center pt-8 my-6 font-[Opensans] font-bold lg:text-[40px] md:text-[20px]"
+        >
+          Choose Your Level
+        </h1>
+        <div
+          class="flex justify-between font-[Raleway] lg:text-[50px] md:text-[20px] ml-6 mr-6 md: gap-6"
+        >
+          <h1>Beginner</h1>
+   
+          <h1>Experienced</h1>
+          <h1>Expert</h1>
+        </div>
+       <div class="flex justify-between font-[Opensans]">
+       <div class="m-3 w-9 h-5 rounded overflow-hidden  "> <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, in
+        quibusdam! Quo minus assumenda sed possimus? Quam pariatur doloribus
+        consectetur.
+      </p>
+    </div>
+       </div>
+      </div>
+    </section>
     <script>
       const navLinks = document.querySelector(".nav-res");
       function onToggleMenu(e) {
